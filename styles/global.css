@@ -28,6 +28,12 @@ body{
     font: var(--text);
 }
 
+.container{
+    max-width: 1280px;
+    padding-inline: 32px;
+    margin-inline: auto;
+}
+
 a{
     text-decoration: none;
     color: inherit;
@@ -39,4 +45,12 @@ a:hover{
 
 h1, h2, h3{
     font: inherit;
+}
+
+.grid{
+    display: grid;
+}
+
+.grid-flow-col{
+    grid-auto-flow: column;
 }
