@@ -13,11 +13,30 @@
     --text-color-secondary: #CBD5E1;
 
     --font-family: "Archivo", sans-serif;
-    --text-h1: 24px/135% var(--font-family);
-    --text-h2: 16px/140% var(--font-family);
-    --text-h3: 14px/140% var(--font-family);
-    --text-span: 14px/145% var(--font-family);
-    --text-p: 14px/160% var(--font-family);
+    --text-h1: 800 24px/135% var(--font-family);
+    --text-h2: 800 16px/140% var(--font-family);
+    --text-h3: 800 14px/140% var(--font-family);
+    --text-span: 600 14px/145% var(--font-family);
+    --text-p: 400 14px/160% var(--font-family);
+
+    --text: 400 16px/160% var(--font-family);
 }
 
+body{
+    background-color: var(--bg-color);
+    color: var(--text-color-primary);
+    font: var(--text);
+}
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: var(--bg-color-light);
+}
+
+h1, h2, h3{
+    font: inherit;
+}
